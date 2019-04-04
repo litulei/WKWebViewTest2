@@ -12,6 +12,9 @@
 		462EA4CD2255EAEA004031CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462EA4CB2255EAEA004031CD /* Main.storyboard */; };
 		462EA4CF2255EAEC004031CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462EA4CE2255EAEC004031CD /* Assets.xcassets */; };
 		462EA4D22255EAEC004031CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462EA4D02255EAEC004031CD /* LaunchScreen.storyboard */; };
+		462EA4DA2255F264004031CD /* hideBio.js in Resources */ = {isa = PBXBuildFile; fileRef = 462EA4D92255F264004031CD /* hideBio.js */; };
+		462EA4DC2255F951004031CD /* biograpy.js in Resources */ = {isa = PBXBuildFile; fileRef = 462EA4DB2255F951004031CD /* biograpy.js */; };
+		462EA4DE22560470004031CD /* fetchAuthors.js in Resources */ = {isa = PBXBuildFile; fileRef = 462EA4DD22560470004031CD /* fetchAuthors.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		462EA4CE2255EAEC004031CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462EA4D12255EAEC004031CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		462EA4D32255EAEC004031CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462EA4D92255F264004031CD /* hideBio.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = hideBio.js; sourceTree = "<group>"; };
+		462EA4DB2255F951004031CD /* biograpy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = biograpy.js; sourceTree = "<group>"; };
+		462EA4DD22560470004031CD /* fetchAuthors.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fetchAuthors.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				462EA4CE2255EAEC004031CD /* Assets.xcassets */,
 				462EA4D02255EAEC004031CD /* LaunchScreen.storyboard */,
 				462EA4D32255EAEC004031CD /* Info.plist */,
+				462EA4D92255F264004031CD /* hideBio.js */,
+				462EA4DD22560470004031CD /* fetchAuthors.js */,
+				462EA4DB2255F951004031CD /* biograpy.js */,
 			);
 			path = WKWebViewTest2;
 			sourceTree = "<group>";
@@ -123,7 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				462EA4D22255EAEC004031CD /* LaunchScreen.storyboard in Resources */,
+				462EA4DC2255F951004031CD /* biograpy.js in Resources */,
+				462EA4DA2255F264004031CD /* hideBio.js in Resources */,
 				462EA4CF2255EAEC004031CD /* Assets.xcassets in Resources */,
+				462EA4DE22560470004031CD /* fetchAuthors.js in Resources */,
 				462EA4CD2255EAEA004031CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
